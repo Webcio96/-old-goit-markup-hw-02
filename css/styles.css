@@ -52,7 +52,7 @@ span.description {
     line-height: 1.87;
     color: #757575;
 }
-*/ button {
+button {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
