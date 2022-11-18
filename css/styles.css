@@ -16,9 +16,9 @@ a.contact {
 nav a {
     color: #212121;
 }
-a.contact {
+/* a.contact {
     color: #757575;
-}
+} */
 .logo {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -40,15 +40,62 @@ footer {
 footer a.mail {
     text-decoration-line: underline;
 }
-footer a.contact {
+/* /* footer a.contact {
     color: #ffffff99;
 }
 address span {
     color: #ffffff;
-}
+} */
 span.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
     color: #757575;
 }
-button {
+*/ button {
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #212121;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* color: #FFFFFF; */
+}
+h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+p.text-lorem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.workers-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.workplace {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
 }
