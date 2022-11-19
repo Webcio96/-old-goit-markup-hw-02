@@ -1,19 +1,19 @@
-nav li a:hover,
-nav a.active,
-a.contact:hover,
+.main-buttons li a:hover,
+.main-buttons a.active,
+.contact:hover,
 .web,
 a:focus,
-a.contact:focus,
-button:hover,
-button:focus {
+.contact:focus,
+.button:hover,
+.button:focus {
     color: #2196f3;
     outline: none;
 }
-nav a,
+.main-buttons a,
 a.contact {
     text-decoration: none;
 }
-nav a {
+.main-buttons a {
     color: #212121;
 }
 /* a.contact {
@@ -46,13 +46,13 @@ footer a.mail {
 address span {
     color: #ffffff;
 } */
-span.description {
+.description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
-button {
+.project-button {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -65,12 +65,12 @@ h1 {
     line-height: 1.36;
     /* color: #FFFFFF; */
 }
-h5 {
+.articles h5 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
-p.text-lorem {
+.articles p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
