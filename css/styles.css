@@ -1,19 +1,29 @@
-.main-buttons li a:hover,
-.main-buttons a.active,
+.main-links a:hover,
+.main-links a.active,
+.main-links a:focus,
 .contact:hover,
 .web,
-a:focus,
+.lower-menu .contact:focus,
+.lower-menu .contact:hover,
 .contact:focus,
-.button:hover,
-.button:focus {
+.project-button:hover,
+.project-button:focus {
     color: #2196f3;
     outline: none;
 }
-.main-buttons a,
+.main-links a,
 a.contact {
     text-decoration: none;
 }
-.main-buttons a {
+a.contact {
+    color: #757575;
+}
+.service-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+.main-links a {
     color: #212121;
 }
 /* a.contact {
@@ -32,18 +42,17 @@ body {
     color: #212121;
 }
 
-footer {
+.company-street,
+.lower-menu a.contact {
     font-family: 'Roboto';
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
-footer a.mail {
-    text-decoration-line: underline;
-}
-/* /* footer a.contact {
+/* .lower-menu a.contact {
     color: #ffffff99;
 }
-address span {
+.company-street {
     color: #ffffff;
 } */
 .description {
@@ -59,7 +68,7 @@ address span {
     line-height: 1.62;
     color: #212121;
 }
-h1 {
+.main-header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -76,10 +85,14 @@ h1 {
     line-height: 1.71;
     color: #757575;
 }
-ul {
+.projects-list,
+.what-we-do ul,
+.our-team ul,
+.main-links,
+.articles {
     list-style-type: none;
 }
-h2 {
+.what-we-do h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -99,3 +112,9 @@ h2 {
     font-size: 18px;
     line-height: 2;
 }
+a.mail-underline {
+    text-decoration: underline;
+}
+/* .lower-menu a.logo {
+    color: #ffffff;
+} */
