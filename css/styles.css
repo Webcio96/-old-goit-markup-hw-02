@@ -4,6 +4,7 @@
 .contact:hover,
 .web,
 .lower-menu .contact:focus,
+.logo:focus,
 .lower-menu .contact:hover,
 .contact:focus,
 .project-button:hover,
@@ -19,16 +20,16 @@ a.contact {
     color: #757575;
 }
 .service-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    background-color: #2196f3;
+    color: #ffffff;
 }
 .main-links a {
     color: #212121;
 }
-/* a.contact {
-    color: #757575;
-} */
 .logo {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -49,30 +50,35 @@ body {
     font-size: 14px;
     line-height: 1.71;
 }
-/* .lower-menu a.contact {
+.lower-menu a.contact {
     color: #ffffff99;
 }
 .company-street {
     color: #ffffff;
-} */
+}
 .description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
-.project-button {
+.our-team {
+    background-color: #f5f4fa;
+}
+.project-button button {
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    background-color: #f5f4fa;
     color: #212121;
 }
-.main-header {
+.main-header h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* color: #FFFFFF; */
+    color: #ffffff;
 }
 .articles h5 {
     font-weight: 700;
@@ -115,6 +121,10 @@ body {
 a.mail-underline {
     text-decoration: underline;
 }
-/* .lower-menu a.logo {
+.lower-menu,
+.main-header {
+    background-color: #2f303a;
+}
+.lower-menu a.logo {
     color: #ffffff;
-} */
+}
