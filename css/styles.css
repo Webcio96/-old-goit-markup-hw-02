@@ -1,16 +1,35 @@
+:root {
+--deafult-title-color: #212121
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--deafult-title-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.16;
+    color: #000000;
+    outline: none;
+}
 .main-links a:hover,
-.main-links a.active,
 .main-links a:focus,
 .contact:hover,
+.logo:focus,
 .web,
 .lower-menu .contact:focus,
-.logo:focus,
 .lower-menu .contact:hover,
 .contact:focus,
-.project-button:hover,
-.project-button:focus {
+.project-button button:hover,
+.project-button button:focus {
     color: #2196f3;
     outline: none;
+}
+.main-links a,
+.project-button button {
+    color: var(--deafult-title-color);
 }
 .main-links a,
 a.contact {
@@ -26,54 +45,11 @@ a.contact {
     line-height: 1.87;
     background-color: #2196f3;
     color: #ffffff;
-}
-.main-links a {
-    color: #212121;
-}
-.logo {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.16;
-    color: #000000;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
+    outline: none;
+    border: none;
+    border-radius: 4px;
 }
 
-.company-street,
-.lower-menu a.contact {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-}
-.lower-menu a.contact {
-    color: #ffffff99;
-}
-.company-street {
-    color: #ffffff;
-}
-.description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    color: #757575;
-}
-.our-team {
-    background-color: #f5f4fa;
-}
-.project-button button {
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    background-color: #f5f4fa;
-    color: #212121;
-}
 .main-header h1 {
     font-weight: 900;
     font-size: 44px;
@@ -91,12 +67,32 @@ body {
     line-height: 1.71;
     color: #757575;
 }
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
 .projects-list,
 .what-we-do ul,
 .our-team ul,
 .main-links,
 .articles {
     list-style-type: none;
+}
+.our-team {
+    background-color: #f5f4fa;
+}
+.project-button button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background-color: #f5f4fa;
+    outline: none; 
+    border: none; 
+    border-radius: 4px;
 }
 .what-we-do h2 {
     font-weight: 700;
@@ -118,6 +114,23 @@ body {
     font-size: 18px;
     line-height: 2;
 }
+.lower-menu a.logo {
+    color: #ffffff;
+}
+.company-street,
+.lower-menu a.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.lower-menu a.contact {
+    color: #ffffff99;
+}
+.company-street {
+    color: #ffffff;
+}
 a.mail-underline {
     text-decoration: underline;
 }
@@ -125,6 +138,4 @@ a.mail-underline {
 .main-header {
     background-color: #2f303a;
 }
-.lower-menu a.logo {
-    color: #ffffff;
-}
+
