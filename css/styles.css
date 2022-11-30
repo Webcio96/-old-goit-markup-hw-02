@@ -27,11 +27,20 @@ body {
 .web,
 .lower-menu .contact:focus,
 .lower-menu .contact:hover,
-.contact:focus,
-.project-button button:hover,
-.project-button button:focus {
+.contact:focus
+{
     color: var(--blue-font);
     outline: none;
+}
+.project-button button:hover,
+.project-button button:focus {
+    color: var(--white-font);
+    background-color: var(--blue-font);
+}
+.main-links a {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 }
 .main-links a,
 .project-button button {
@@ -70,7 +79,6 @@ a.contact {
     line-height: 1.14;
 }
 .articles p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--grey-font);
@@ -87,7 +95,6 @@ a.contact {
     line-height: 1.18;
 }
 .workplace {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     color: var(--grey-font);
@@ -98,7 +105,6 @@ a.contact {
     line-height: 2;
 }
 .description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     color: var(--grey-font);
@@ -129,7 +135,6 @@ a.contact {
 }
 .company-street,
 .lower-menu a.contact {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
